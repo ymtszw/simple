@@ -79,5 +79,5 @@ function fish_prompt -d "Simple Fish Prompt"
         end
     end
 
-    __print_color FF7676 "\n❯ "
+    __print_color FF7676 "\e[K\n❯ "
 end
