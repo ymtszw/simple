@@ -17,7 +17,7 @@ function __print_color
 end
 
 function fish_prompt -d "Simple Fish Prompt"
-    echo -e ""
+    history merge
 
     # User
     #
